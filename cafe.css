@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f1ea;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    color: #6b4226;
+}
+.productos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.producto {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 200px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(107, 66, 38, 0.2);
+    text-align: center;
+}
+.producto img {
+    width: 100%;
+    border-radius: 5px;
+}
+.nombre {
+    font-weight: bold;
+    margin: 10px 0 5px;
+    color: #4b2e05;
+}
+.precio {
+    color: #a55c1a;
+    font-size: 1.1em;
+}
